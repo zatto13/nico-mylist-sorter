@@ -1,0 +1,16 @@
+# 依存パッケージ（npmで自動復元できるため不要）
+node_modules/
+
+# ビルド成果物（GitHub Actionsが勝手に作るため不要）
+dist/
+build/
+
+# ローカル環境固有の設定ファイルやキャッシュ
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.vite/
+
+# VSCodeなどのエディタ設定（必要なら除外）
+.vscode/
